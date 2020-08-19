@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CameraActivity">
+
+    <ImageView
+        android:id="@+id/selfFie"
+        android:layout_width="fill_parent"
+        android:layout_height="320dp"
+        android:layout_marginTop="32dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selfFie"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="35dp"
+        android:background="@color/colorAccent"
+        android:layout_centerInParent="true"
+        android:minWidth="160dp"
+        android:text="Retake"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button3"
+        android:layout_marginTop="35dp"
+        android:background="@color/colorAccent"
+        android:minWidth="160dp"
+        android:text="Back"
+        android:layout_centerInParent="true"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+</RelativeLayout>
